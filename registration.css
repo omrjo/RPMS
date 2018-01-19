@@ -1,0 +1,24 @@
+    #headerPar { text-align: center;
+      color: white; }
+    header    {
+      border: 1px solid #1aa3ff;
+      margin: 20px;
+      background-color: #1aa3ff;
+      padding-bottom: 50px;}
+    #title { text-align: center; color: white; }
+
+    #logo { float: left; margin-left: 50px; }
+
+    .Register-box { background-color: white;
+                    max-width: 365px;
+                    margin: auto;
+                    position: initial;
+                    top: 10px;
+                    padding-bottom: 30px;
+                    border-radius: 20px; 
+                    box-shadow: 0 5px 20px ; }
+    .Register-box #signIn { background-color:#1aa3ff; border-radius: 20px 20px 0 0; text-align: center; }
+
+    p.head  { font-weight: bold; margin-top: 10px; }
+
+    #footer { margin-top: 25px; margin-bottom: 25px; text-align: center; }

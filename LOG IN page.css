@@ -1,0 +1,109 @@
+	header    {
+			border: 1px solid #1aa3ff;
+			margin: 20px;
+			background-color: #1aa3ff;
+			padding-bottom: 50px; }
+		
+		#title{ text-align: center; color: white; }
+
+		#logo{ float: left; margin-left: 50px; }
+	
+		#headerPar
+		{
+			text-align: center;
+			color: white;
+		}
+		
+		h2 {
+
+color: white;
+font-weight:1000;
+						letter-spacing: 2px;
+font-size: 1.4em; 
+line-height: 3em;
+}
+
+
+		.error-message 
+		{
+		text-align:center;
+		color:#FF0000;
+		}		
+
+		
+		.login-box 
+		{
+
+		background-color:white;
+ max-width:340px;
+					margin:0 auto;
+position:relative;
+top: 10px;
+padding-bottom:80px;
+			border-radius: 20px; 
+box-shadow: 0 5px 20px ;
+		text-align:center;
+
+		}
+		
+
+		
+.login-box .box-header {
+
+		
+margin-top:700;background-color:#1aa3ff;border-radius:     			20px 20px 0 0;
+		
+}
+
+
+
+		.login-box label {
+font-weight: 800;
+
+color: black;
+	
+			line-height: 1em;
+
+		}
+
+
+		
+		.login-box input {
+margin-bottom: 10px;
+	padding: 8px;
+				border: 1px solid;
+border-radius: 4px;
+	font-size:.9em;
+
+
+		}
+
+		.login-box button
+		{
+border: 2;
+border-radius: 8px;
+color:white ;
+padding: 10px;
+			
+
+font-size: 0.7em;
+letter-spacing:1px;
+background-color:#1aa3ff;
+			cursor:pointer;
+
+		
+}
+		
+		#footer { 
+		margin-top: 25px; margin-bottom: 25px
+		 }
+
+		
+		
+
+
+
+
+
+
+

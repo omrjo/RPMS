@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registration page.css">
+    <script src="R.js"></script>
+</head>
+
+<body>
+	<header>
+	   <div id="header">
+	   <img src="logo1.jpg" alt="Al-imam logo" width="120" height="120" id="logo">
+	   <p id="headerPar">Kingdom of Saudi Arabia<br>Ministry of Education<br>Al-Imam Muhammed Ibn Saud Islamic University</p>
+	   <h1 id="title">The Scientific Research Deanery</h1>
+	   </div>
+    </header>
+
+    <div class="Register-box">
+
+       <div id="signIn">
+	      <h3>Already have an account? <a href="LOG IN page.html">SIGN IN</a></h3>
+       </div>
+
+	  <form method="post" action="registration.php" onsubmit="match();">
+
+		<p><label><strong>First Name</strong></label>
+			<input type="text" name="firstname" placeholder="firs name" required>
+		</p>
+
+		<p><label><strong>Last Name</strong></label>
+			<input type="text" name="lastname" placeholder="last name" required>
+		</p>
+
+		<p><label><strong>Email</strong></label>
+			<input type="email" name="email" placeholder="email address" required>
+		</p>
+
+		<!--<p><label><strong>Date of Birth</strong></label>
+			 <input type="date" name="bday" required>
+		</p>-->
+
+		<!--<p><label for="textlist"><strong>Department</strong></label>
+			<input type="text" name="department" list="department" placeholder="select a department" id="textlist" autofocus required>
+			<datalist id = department>
+				<option value="Computer Science"></option>
+				<option value="Medicine"></option>
+				<option value="Science"></option>
+			</datalist>
+		</p>-->
+
+		<p><label><strong>Department</strong></label>
+			<select name="departments" id = department>
+  			<option value="1">Computer Science</option>
+  			<option value="2">Sciences</option>
+  			<option value="3">Medecine</option>
+		</select></p>
+
+
+		<p><label><strong>Password</strong></label>
+			<input type="password" name="password" id="password" onkeyup='check();' required>
+		</p>
+
+		<p><label><strong>Re-Password</strong>
+			<input type="password" name="Re-password" id="Re-password" onkeyup='check();' required>
+			<span id="message"></span>
+		</p></label>
+
+        
+        <div id="termsOfService"> 
+		  <details>
+			<summary>Terms of Service</summary>
+			<br>The use of this website is subject to the following terms of use:
+			<ul>
+				<li>The content of the pages of this website is for your general information and use only. It is subject to change without notice.</li>
+				<li>This website uses cookies to monitor browsing preferences. If you do allow cookies to be used, the following personal information may be stored by us for use by third parties: [Name,Email].</li>
+				<li>Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.</li>
+				<li>Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</li>
+				<li>This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</li>
+				<li>All trade marks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website. Unauthorised use of this website may give rise to a claim for damages and/or be a criminal offence.</li>
+				<li>Unauthorised use of this website may give rise to a claim for damages and/or be a criminal offence.</li>
+				<li>From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).</li>
+			</ul>
+		  </details>
+		</div>  
+
+		<p><label>Accept the Terms of Service</label>
+		     <input type="checkbox" name="terms of service" value="agree" required>
+		</p>
+
+		<p>
+			<input type="submit" value="SIGN UP">
+			<input type="reset" value="Clear">
+		</p>
+
+	  </form>
+	</div>
+
+	<footer id="footer">
+	     <p>&copy; The Scientific Research Deanery</p>
+    </footer>
+
+</body>
+
+</html>
