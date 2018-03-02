@@ -30,7 +30,9 @@
 	
 </div> 
 <div class="box">
-<h2>Add a new report</h2>
+	<div class="head">
+		<h3>Add a new report</h3>
+	</div>
 <form action="submitReport.php" method="POST">
 	<p><label>Report Title:<input type="text" name="title" id="title" required></label></p>
 	<p><label>Upload your report in PDF format:<input type="file" name="fupload" id ="fupload" accept=".pdf" required></label></p>

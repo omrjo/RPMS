@@ -38,7 +38,8 @@
 	</div>
 	
 <div class="box">
-	<h2>Your Reports</h2>
+	<div class="head"><h3>Your Reports</h3></div>
+	
 	<table id="projTable">
 		<tr>
 			<th>Id</th>

@@ -33,7 +33,8 @@
 	
 </div> 
 <div class="box">
-	<h2>Report's title</h2>
+	<div class="head"><h3>Report's title</h3></div>
+	
 	<table id="projTable2">
 		<?php
 		while ($row = mysqli_fetch_row($result))

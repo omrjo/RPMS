@@ -38,7 +38,9 @@
 	
 </div> 
 <div class="box">
-	<h2>Pending Projects:</h2>
+	<div class="head">
+		<h3>Pending Projects:</h3>
+	</div>
 	<table id="projTable2">
 		<tr>
 			<th>Id</th>

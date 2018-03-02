@@ -38,7 +38,8 @@
 	
 </div> 
 <div class="box">
-	<h2>Projects needs your review:</h2>
+	<div class="head"><h3>Projects needs your review:</h3></div>
+	
 	<table id="projTable2">
 		<tr>
 			<th>Id</th>

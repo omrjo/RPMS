@@ -37,7 +37,9 @@
 	</div>
 	
 <div class="box">
-	<h2>Your Projects</h2>
+	<div class="head">
+		<h3>Your Projects</h3>
+	</div>
 	<table id="projTable">
 		<tr>
 			<th>Id</th>
